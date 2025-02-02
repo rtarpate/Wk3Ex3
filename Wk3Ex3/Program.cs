@@ -72,11 +72,12 @@ else if (userinputOperation == 2)
             vowelcount++;
         }
 
-        //outputs the reults of the calulations 
-        Console.WriteLine(" the number of vowels insdie " + userinputString + " is: " + vowelcount);
+        
 
     }
-    
+    //outputs the reults of the calulations 
+    Console.WriteLine(" the number of vowels insdie " + userinputString + " is: " + vowelcount);
+
 }
 //calutes opertaion for palindrome
 else if (userinputOperation == 3)
