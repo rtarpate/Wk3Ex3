@@ -66,13 +66,17 @@ else if (userinputOperation == 2)
     //uses foreach to count vowels inside user input
     foreach (char c in userinputString)
     {
-        //adds 1 for each vowel inside the usre input
-        vowelcount++;
+        if (vowels.Contains(c))
+        {
+            //adds 1 for each vowel inside the usre input
+            vowelcount++;
+        }
+
+        //outputs the reults of the calulations 
+        Console.WriteLine(" the number of vowels insdie " + userinputString + " is: " + vowelcount);
+
     }
-
-    //outputs the reults of the calulations 
-    Console.WriteLine(" the number of vowels insdie " + userinputString + " is: " + vowelcount);
-
+    
 }
 //calutes opertaion for palindrome
 else if (userinputOperation == 3)
